@@ -58,3 +58,45 @@ console.log(typeof myFunction);
 // type of value of Function is "ObjectFunction 
 
 // Non Primitive is called as "FunctionObject"
+
+
+
+
+
+
+
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive) , Heap(Non-Primitive)
+
+// Stack me jo bhi variable declare kiya hai uska copy milta hai 
+
+// Heap me jo bhi value declare kiya hai uska reference hai 
+
+let myYoutubename = "HealthyLife"
+
+
+let anothername = myYoutubename
+
+console.log(myYoutubename);
+
+console.log(anothername);
+
+let userOne = {
+
+  email: "user@google.com",
+  upiID : "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "Shivam@google.com"
+
+console.log(userOne.email);
+
+console.log(userTwo.email);
+
+
